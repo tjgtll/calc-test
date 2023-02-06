@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Калькулятор</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <my-calculator extensions=
+    '{ 
+        "Sqrt":"function(a){return Math.sqrt(a);}", 
+        "Exp":"function(a){return Math.exp(a);}",
+        "Sin":" function(a){return Math.sin(a);}",
+        "Cos": "function(a){return Math.cos(a);}",
+        "Tg": "function(a){return Math.tan(a);}",
+        "Ctg": "function(a){return 1 / Math.tan(a);}",
+        "Sq": "function(a){return Math.pow(a, 2);}",
+        "Sqrt": "function(a){return Math.sqrt(a);}",
+        "Exp": "function(a){return Math.exp(a);}",
+        "Abs": "function(a){return Math.abs(a);}"
+    }' >
+    </my-calculator>    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
